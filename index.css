@@ -1,0 +1,44 @@
+.body{
+    align-content:center ;
+    background-color: #9AD0EC;
+}
+.heading{
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-align: center;
+    color: tomato;
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    border-style: solid;
+    border-radius: 25px;
+    border-color: tomato;
+    padding: 2%;
+    margin: 9% auto 8%;
+    background-color: #FBF46D;
+    width: 40%;
+    align-self: center;
+}
+.calculate{
+    display: inline-block;
+    margin: auto 36%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.footer{
+    text-align: center;
+    font-style: italic;
+}
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+#ans{
+    color: tomato;
+}
