@@ -1,3 +1,6 @@
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+const user = supabase.auth.user();
+document.querySelector("#ans").innerHTML = user;
 document.querySelector("button").addEventListener("click", function () {
     var fn = parseInt(document.querySelector("#fn").value);
     var sn = parseInt(document.querySelector("#sn").value);
