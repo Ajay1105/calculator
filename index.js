@@ -1,5 +1,4 @@
 
-document.querySelector("#ans").innerHTML = user;
 document.querySelector("button").addEventListener("click", function () {
     var fn = parseInt(document.querySelector("#fn").value);
     var sn = parseInt(document.querySelector("#sn").value);
